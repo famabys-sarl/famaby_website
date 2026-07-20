@@ -19,10 +19,10 @@ const values = [
 ]
 
 const timeline = [
-  { year: '2010', title: 'Création', description: 'FAMABY est fondée à Dakar pour commercialiser des produits pétroliers de qualité.' },
-  { year: '2014', title: 'Expansion Gaz', description: 'Extension vers la distribution de gaz butane et propane.' },
-  { year: '2018', title: 'Agriculture', description: 'Lancement de la gamme engrais et intrants agricoles.' },
-  { year: '2022', title: 'Construction', description: 'Diversification avec le fer à béton et les aciers de construction.' },
+  { year: '2022', title: 'Création', description: 'FAMABY est fondée à Dakar pour commercialiser des produits pétroliers de qualité.' },
+  { year: '2023', title: 'Expansion Gaz', description: 'Extension vers la distribution de gaz butane et propane.' },
+  { year: '2024', title: 'Agriculture', description: 'Lancement de la gamme engrais et intrants agricoles.' },
+  { year: '2025', title: 'Construction', description: 'Diversification avec le fer à béton et les aciers de construction.' },
 ]
 
 export default function APropos() {
