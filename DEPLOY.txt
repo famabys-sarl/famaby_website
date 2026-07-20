@@ -1,0 +1,95 @@
+# Fichier de déploiement FAMABY
+# Ce fichier explique comment déployer le site sur OVH
+
+## Commandes à exécuter sur votre PC
+
+### 1. Build du projet
+```bash
+npm run build
+```
+
+### 2. Créer le fichier zip pour l'upload
+```bash
+# Sur Windows (PowerShell)
+Compress-Archive -Path "dist\*" -DestinationPath "famaby-deploy.zip"
+```
+
+### 3. Upload via FileZilla
+1. Ouvrez FileZilla
+2. Connectez-vous à votre OVH (FTP)
+3. Uploadez tout le contenu de `dist/` vers `www/` sur le serveur
+
+## Informations de connexion OVH
+
+### FTP
+- Serveur : ftp.famaby.sn (ou l'adresse indiquée dans votre espace client)
+- Utilisateur : votre_login_ftp
+- Mot de passe : votre_mot_de_passe_ftp
+- Port : 21
+
+### Email
+- Adresse : contact@famaby.sn
+- Mot de passe : celui dans config.php
+
+### Domaine
+- Nom : famaby.sn
+- DNS : doit pointer vers l'IP de votre hébergement
+- SSL : Let's Encrypt (gratuit)
+
+## Vérification post-déploiement
+
+1. Accédez à https://famaby.sn
+2. Testez le formulaire Contact
+3. Vérifiez que l'email arrive dans contact@famaby.sn
+4. Testez le formulaire Devis
+5. Vérifiez la page À propos
+6. Testez la page Produits
+7. Vérifiez la page Contact avec la carte
+
+## Structure des fichiers sur le serveur
+
+```
+www/
+├── index.html
+├── favicon.svg
+├── icons.svg
+├── assets/
+│   ├── index-BOYTI87u.css
+│   └── index-BFX0SOU2.js
+└── api/
+    ├── contact.php
+    ├── devis.php
+    ├── helpers.php
+    ├── config.php
+    ├── .htaccess
+    ├── vendor/
+    │   └── phpmailer/
+    └── logs/
+```
+
+## Sécurité
+
+- config.php est protégé par .htaccess
+- Les logs sont dans un dossier protégé
+- Le rate limiting est activé (5 tentatives / 5 minutes)
+- Les entrées sont sanitizées
+- Le HTTPS est forcé
+
+## Mise à jour
+
+Pour mettre à jour le site :
+1. Modifiez le code sur votre PC
+2. Exécutez `npm run build`
+3. Uploadez le nouveau contenu de `dist/` vers `www/` via FileZilla
+
+## Sauvegarde
+
+Pour sauvegarder le site :
+1. Téléchargez tout le dossier `www/` via FileZilla
+2. Stockez la sauvegarde en lieu sûr
+
+## restauration
+
+Pour restaurer une sauvegarde :
+1. Uploadez les fichiers sauvegardés vers `www/` via FileZilla
+2. Vérifiez que tout fonctionne
