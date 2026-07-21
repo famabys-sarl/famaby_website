@@ -15,19 +15,17 @@ const IMAGES = {
 
   // ─── Produits ───
   products: {
-    petrole:      'https://images.unsplash.com/photo-1722246128616-76c934278e0a?w=800&h=600&fit=crop&q=80',
-    essence:      'https://images.unsplash.com/photo-1748761751275-e55a2a29e1bf?w=800&h=600&fit=crop&q=80',
+    petrole:      'https://images.unsplash.com/photo-1582657233895-0f37a3f150c0?w=800&h=600&fit=crop&q=80',
+    essence:      'https://images.unsplash.com/photo-1758362066807-39825a297aa4?w=800&h=600&fit=crop&q=80',
     gasoil:       'https://images.unsplash.com/photo-1771575519808-53cdb4c36fa5?w=800&h=600&fit=crop&q=80',
     terrains:     '/images/hero/terrain.png',
     uree:         'https://images.unsplash.com/photo-1637500980709-6e65a6c2418a?w=800&h=600&fit=crop&q=80',
     npk:          'https://images.unsplash.com/photo-1589923188651-268a9765e432?w=800&h=600&fit=crop&q=80',
-    intrants:     'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop&q=80',
+    intrants:     'https://images.unsplash.com/photo-1776262598074-c00e3da960c6?w=800&h=600&fit=crop&q=80',
     ferBeton:     'https://images.unsplash.com/photo-1763771420303-0f11ccf613d1?w=800&h=600&fit=crop&q=80',
     ferT:         'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop&q=80',
-    aciers:       'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&h=600&fit=crop&q=80',
     bitume:       'https://images.unsplash.com/photo-1683880695653-3afd290c9e41?w=800&h=600&fit=crop&q=80',
     enrobes:      'https://images.unsplash.com/photo-1772852340517-b11ec88979fc?w=800&h=600&fit=crop&q=80',
-    etancheite:   'https://images.unsplash.com/photo-1632759145351-1d592919f522?w=800&h=600&fit=crop&q=80',
   },
 
   // ─── Actualités ───
