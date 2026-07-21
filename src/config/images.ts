@@ -4,12 +4,13 @@
 const IMAGES = {
   // ─── Hero Slider (6 slides) ───
   hero: {
-    petrole:      'https://images.unsplash.com/photo-1726111440333-ab02a5a36d5f?w=1920&h=1080&fit=crop&q=85',
-    petrole1:     'https://images.unsplash.com/photo-1707960189679-1ea1e312f63f?w=1920&h=1080&fit=crop&q=85',
-    petrole01:    'https://images.unsplash.com/photo-1706466777992-a05c6c402ae9?w=1920&h=1080&fit=crop&q=85',
-    uree:         'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920&h=1080&fit=crop&q=85',
-    butume:       'https://images.unsplash.com/photo-1772852340517-b11ec88979fc?w=1920&h=1080&fit=crop&q=85',
-    butume01:     'https://images.unsplash.com/photo-1772852331753-fc11e83a7288?w=1920&h=1080&fit=crop&q=85',
+    petrole:      '/images/hero/petrole.jpg',
+    petrole1:     '/images/hero/petrole1.jpg',
+    petrole01:    '/images/hero/petrole01.png',
+    uree:         '/images/hero/uree.png',
+    butume:       '/images/hero/butume.png',
+    butume01:     '/images/hero/butume01.png',
+    terrain:      '/images/hero/terrain.png',
   },
 
   // ─── Produits ───
