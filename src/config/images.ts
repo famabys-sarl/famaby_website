@@ -18,7 +18,7 @@ const IMAGES = {
     petrole:      'https://images.unsplash.com/photo-1722246128616-76c934278e0a?w=800&h=600&fit=crop&q=80',
     essence:      'https://images.unsplash.com/photo-1748761751275-e55a2a29e1bf?w=800&h=600&fit=crop&q=80',
     gasoil:       'https://images.unsplash.com/photo-1771575519808-53cdb4c36fa5?w=800&h=600&fit=crop&q=80',
-    terrains:     'https://images.unsplash.com/photo-1637555754372-54538a035312?w=800&h=600&fit=crop&q=80',
+    terrains:     '/images/hero/terrain.png',
     uree:         'https://images.unsplash.com/photo-1637500980709-6e65a6c2418a?w=800&h=600&fit=crop&q=80',
     npk:          'https://images.unsplash.com/photo-1589923188651-268a9765e432?w=800&h=600&fit=crop&q=80',
     intrants:     'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop&q=80',
@@ -54,13 +54,13 @@ const IMAGES = {
     agriculture:     'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop&q=80',
     fer:             'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop&q=80',
     bitume:          'https://images.unsplash.com/photo-1772852340517-b11ec88979fc?w=800&h=600&fit=crop&q=80',
-    terrains:        'https://images.unsplash.com/photo-1637555754372-54538a035312?w=800&h=600&fit=crop&q=80',
+    terrains:        '/images/hero/terrain.png',
   },
 
   // ─── Activités ───
   activites: {
     distribution:    'https://images.unsplash.com/photo-1771575519808-53cdb4c36fa5?w=800&h=600&fit=crop&q=80',
-    immobilier:      'https://images.unsplash.com/photo-1637555754372-54538a035312?w=800&h=600&fit=crop&q=80',
+    immobilier:      '/images/hero/terrain.png',
     agriculture:     'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop&q=80',
     construction:    'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop&q=80',
     routes:          'https://images.unsplash.com/photo-1772852340517-b11ec88979fc?w=800&h=600&fit=crop&q=80',
