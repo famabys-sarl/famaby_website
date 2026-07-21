@@ -35,6 +35,7 @@ const products = [
   { name: 'Urée & Engrais', description: 'Engrais azoté, NPK et intrants agricoles.', icon: Sprout, image: IMAGES.products.uree, sector: 'Agriculture', color: 'from-green-600 to-green-400' },
   { name: 'Commercialisation du Fer', description: 'Fers et aciers pour l\'architecture et le génie civil.', icon: Hammer, image: IMAGES.products.ferBeton, sector: 'Construction', color: 'from-slate-600 to-slate-400' },
   { name: 'Bitume', description: 'Enrobés routiers pour stabilité et durabilité.', icon: Layers, image: IMAGES.products.bitume, sector: 'Routes', color: 'from-stone-600 to-amber-600' },
+
 ]
 
 const steps = [

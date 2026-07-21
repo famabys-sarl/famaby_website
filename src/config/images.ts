@@ -4,12 +4,12 @@
 const IMAGES = {
   // ─── Hero Slider (6 slides) ───
   hero: {
-    petrole:      'https://images.unsplash.com/photo-1722246128616-76c934278e0a?w=1920&h=1080&fit=crop&q=85',
-    petrole1:     'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1920&h=1080&fit=crop&q=85',
-    petrole01:    'https://images.unsplash.com/photo-1582657233895-0f37a3f150c0?w=1920&h=1080&fit=crop&q=85',
-    uree:         'https://images.unsplash.com/photo-1637500980709-6e65a6c2418a?w=1920&h=1080&fit=crop&q=85',
+    petrole:      'https://images.unsplash.com/photo-1726111440333-ab02a5a36d5f?w=1920&h=1080&fit=crop&q=85',
+    petrole1:     'https://images.unsplash.com/photo-1707960189679-1ea1e312f63f?w=1920&h=1080&fit=crop&q=85',
+    petrole01:    'https://images.unsplash.com/photo-1706466777992-a05c6c402ae9?w=1920&h=1080&fit=crop&q=85',
+    uree:         'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920&h=1080&fit=crop&q=85',
     butume:       'https://images.unsplash.com/photo-1772852340517-b11ec88979fc?w=1920&h=1080&fit=crop&q=85',
-    butume01:     'https://images.unsplash.com/photo-1683880695653-3afd290c9e41?w=1920&h=1080&fit=crop&q=85',
+    butume01:     'https://images.unsplash.com/photo-1772852331753-fc11e83a7288?w=1920&h=1080&fit=crop&q=85',
   },
 
   // ─── Produits ───
